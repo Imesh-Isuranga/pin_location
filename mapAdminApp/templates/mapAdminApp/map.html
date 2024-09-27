@@ -22,11 +22,11 @@
             var marker = new google.maps.Marker({
                 position: {lat: location.lat, lng: location.lng}, 
                 map: map, 
-                title: location.name
+                title: location.details
             });
 
             var infowindow = new google.maps.InfoWindow({
-                content: location.name, 
+                content: location.details, 
             });
 
             infoWindow.push(infowindow)
@@ -66,10 +66,7 @@
      </div>
 
 
-    <div class="linkholder">  
-        <a href="{% url 'my_home_view' %}"> Go to our homepage</a> 
-
-    </div>
+  
 
 
 

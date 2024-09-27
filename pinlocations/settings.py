@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-GOOGLE_API_KEY = 'AIzaSyCeHNMTy_QJmoL5IU9YdL0D8-QsrCbf3JY'
+GOOGLE_API_KEY = 'Your API KEY'
 CRISPY_TEMPLATE_PACK = 'bootstrap4' 
 
 
